@@ -278,7 +278,10 @@
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
-
+.free-course__figure:hover{
+  transform: scale(1.1);
+  transition-duration: 0.9s;
+}
 .free-course__figure{
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
@@ -403,7 +406,7 @@ figure {
   text-align: center;
 }
 .main-sign__up img {
-  width: 100%;
+  width: 76%;
 }
 
 .sign-up__button{
@@ -512,6 +515,7 @@ figure {
 
   .main-sign__up img {
     display: block;
+    width: 100%;
   }
   .main-sign__up{
     display: flex;

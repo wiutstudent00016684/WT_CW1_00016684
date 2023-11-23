@@ -4,6 +4,7 @@ let userName = data.elements["user-name"];
 let userEmail = data.elements["user-email"];
 let phoneNumber = data.elements["phone-number"];
 let isCorrect = data.elements['isCorrect'];
+let userMessage = data.elements['user-message']
 
 // Form Validation
 data.addEventListener("submit", function (event) {
@@ -35,6 +36,8 @@ data.addEventListener("submit", function (event) {
           userName.value = "";
             userEmail.value = "";
             phoneNumber.value = "";
+            userMessage.value = ""
+
             isCorrect.checked = false;
         }
     }
