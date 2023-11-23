@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Technology</title>
+    <link rel="stylesheet" href="..//CSS/style.css">
+    <link rel="stylesheet" href="..//CSS/shared.css">
+    <link rel="icon" href="..//Pictures/mohirdev-glass.webp" type="webp">
+</head>
+
+<body>
+     <!-- General Header Section -->
+     <div class="container">
+        <header class="general-header" id="main-header">
+            <nav class="navbar">
+                <div class="logo-brand">
+                    <a href="index.html">
+                    <img src="../Pictures/mohir dev.png" alt="logo Brand">
+                     </a>
+                     
+                 </div>
+                <div class="navigation-bar">
+                    <ul class="navigation-bar__items">
+                        <li class="navigation-bar__item active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li  class="navigation-bar__item">
+                            <a href="courses.html">Courses</a>
+                        </li>
+                        <li  class="navigation-bar__item">
+                            <a href="teachers.html">Teachers</a>
+                        </li>
+                        <li  class="navigation-bar__item">
+                            <a href="aboutUs.html">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="links">
+                    <a href="signUp.html" class="btn-navbar btn active">Sign Up</a>
+                    <a href="..//HTML files/contacts.html" class="btn-navbar btn">Contacts</a>
+                </div>
+            </nav>    
+        </header>
+   </div>
+    <!--General Header Section Ending-->
+    <!-- The Contacts Section! -->
+    <main class="main-contacts container">
+        <div class="box-1">
+           <h1 class="message">We help you to choose your occupation!</h1>
+           <h3 class="follow-up__message">Leave your details. we will contact you soon</h3>
+        </div>
+        <div class="box-2">
+            <form action="#" method="GET" id="form-element">
+                <div class="form-col">
+                    <div class="grid-items">
+                        <div class="grid-item">
+                            <label for="name">*Your Name</label>
+                            <input type="text" id="name" name="user-name" placeholder="Write Your Full Name">
+                            <span class="validation-item"></span>
+                        </div>
+                        <div class="grid-item">
+                            <label for="email">*Your Email</label>
+                            <input type="email" id="email" name="user-email" placeholder="Type Your Emial Adress">
+                            <span class="validation-item"></span>
+                        </div>
+                    </div>
+                    <br>
+                    <label for="tel">Your Phone Number</label>
+                    <input type="tel" id="tel" name="phone-number" placeholder="Type Your Phone Number" class="contact-item">
+                    <span class="validation-item"></span>
+                    <br>
+                    <label for="check-box">Do you confirm that the details you provided is correct</label>
+                    <input type="checkbox" name="isCorrect" id="check-box">
+                    <span class="validation-item"></span>
+                </div>
+                <textarea name="user-message" id="form-textarea" cols="30" rows="10" placeholder="Type Your Message"></textarea>
+                <button type="Submit" class="btn-send btn bnt-hover"> Send </button>
+            </form>
+        </div>
+    </main>
+    <!-- Contacts Section Ending -->
+     <!--General Footer section -->
+   <div class="container">
+    <hr id="horizontal-border">    
+        <footer id="footer-section">
+            <div class="footer-info">
+                <div class="footer-item">
+                    <img src="../Pictures/logos-06.png" alt="">
+                </div>
+                <div class="social-icons">
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-telegram"></i></a>
+                </div>
+                <h1>+998 (78) 113 13 10</h1>
+                <h4>4A Muminov Street,<br> Mirzo Ulugbek district, <br>Tashkent city.</h4>
+            </div>
+            <nav class="footer-navigation">
+               <div class="footer-navigation-items">
+                    <h3>Platform</h3>
+                    <ul class="footer-list-items">
+                        <li>Careers</li>
+                        <li>Courses</li>
+                    </ul>
+               </div>
+               <div class="footer-navigation-items">
+                    <h3>Company</h3>
+                    <ul class="footer-list-items">
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>Terms and conditions</li>
+                    </ul>
+               </div>
+               <div class="footer-navigation-items">
+                    <h3>Information</h3>
+                    <ul class="footer-list-items">
+                        <li>Contacts</li>
+                        <li>Student Loans</li>
+                        <li>Payment Instructions</li>
+                        <li>Discounts</li>
+                    </ul>
+               </div>
+            </nav>
+        </footer>
+        
+        <div class="copyright-section">
+            <p class="warning-message">This website was created to fulfill Web Technology 
+                module’s requirements and does not represent an actual company or service
+            </p>
+            <hr>
+            <h3>© Mohirdev 2023. All rights reserved.</h3>
+        </div>
+   </div>
+    <!--Footer section ending -->
+    <script src="../js/contacts.js"></script>
+</body>
+</html>
