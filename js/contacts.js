@@ -32,7 +32,7 @@ data.addEventListener("submit", function (event) {
         if (!isCorrect.checked){
             alert("Please tick before submitting! ")
         }else{
-          alert("Yout message has succesfully been submitted, we will contact you soon");
+          alert("Your message has succesfully been submitted, we will contact you soon");
           userName.value = "";
             userEmail.value = "";
             phoneNumber.value = "";
